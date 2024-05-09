@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap");
+  
+  body {
+    font-family: "Rubik", sans-serif;
+    color: white;
+  }
+  #room_list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap:wrap;
+    margin: 2rem;
+    margin-top: 10%;
+    gap:3rem;
+
+  }
+  
+  #room_container {
+    position: relative;
+    width: 400px;
+    max-width: 1200px;
+    background-color: rgb(52, 46, 46);
+    border: none;
+    border-radius: 10px;
+    padding-bottom: 2rem;
+  }
+  .live {
+    position: absolute;
+    background-color: rgb(199, 26, 26);
+    padding: 0.2rem 0.4rem;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 13px;
+    top: 10px;
+    left: 10px;
+    z-index: 1;
+  }
+  
+  #vdo {
+    object-position: center;
+    width: 100%;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    aspect-ratio: 16/9;
+  }
+  #avatar_md {
+    width: 10%;
+    border: none;
+    border-radius: 50%;
+    text-align: center;
+  }
+  .room_meta {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 1rem;
+    padding: 0.1rem 1rem;
+    letter-spacing: 1px;
+    font-size: 0.7rem;
+    font-weight: 600;
+  }
+  .room_title {
+    font-size: 18px;
+    margin-left: 1rem;
+    margin-top: 0.2rem;
+    letter-spacing: 0.1rem;
+    font-weight: 600;
+  }
+  .join {
+    margin-top: 1rem;
+    padding: 0.6rem 0.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+  }
+  .room_box {
+    width: 250px;
+    max-width: 500px;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+  }
+  .joinbtn {
+    border-radius: 10px;
+    padding: 0.7rem 0.9rem;
+    font-family: inherit;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 700;
+    color: white;
+    background-color: rgba(16, 97, 35, 0.797);
+    border: none;
+    outline: none;
+    letter-spacing: 1px;
+    cursor: pointer;
+  }
+  .joinbtn:hover {
+    background-color: rgb(47, 74, 156);
+    transition: all 0.2s ease-in-out;
+    scale: 1.1;
+  }
+  

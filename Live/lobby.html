@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="styles/main.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="styles/lobby.css"/>
+    
+    <title>Room</title>
+</head>
+<body>
+
+    <header id="nav">
+       <div class="nav--list">
+            <a href="lobby.html">
+                <h3 id="logo">
+                    <img src="./images/logo.jpg" alt="Site Logo">
+                    <span>FunOlympic 2022</span>
+                </h3>
+            </a>
+       </div>
+
+       <div id="nav_links">
+        <a class="nav_link" href="lobby.html">
+            Lobby
+            <svg xmlns="https://www.w3.org/2000/svg" width="24" height="24" fill="#ede0e0"></svg>
+        </a>
+        <a class="nav_link" id="create_room_btn" href="create.html">
+            Create Room
+            <svg xmlns="https://www.w3.org/2000/svg" width="24" height="24" fill="ede0e0"></svg>
+        </a>
+
+       </div>
+    </header>
+    
+    <main>
+        <section id="room_list">
+            <h3 id="room_listTitle">Live Now</h3>           
+            <div id="room_container">
+
+            </div>
+        </section>
+
+
+
+
+    </main>
+</body>
+<script src="js/agora-rtm-sdk-1.5.1.js"></script>
+<script type="module" src="js/lobby.js"></script>
+</html>
