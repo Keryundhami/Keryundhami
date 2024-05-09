@@ -5,6 +5,7 @@
 - 📫 Mail me at dhamikiransingh@gmail.com
 - 😄 Pronouns: KIRA
 - ⚡ Fun fact: I don't make joke if it's about work!
+- Install node modules mandatory.
 
 <!---
 Keryundhami/Keryundhami is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
